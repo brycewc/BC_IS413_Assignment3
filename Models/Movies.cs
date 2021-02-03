@@ -25,7 +25,7 @@ namespace BC_IS413_Assignment3.Models
         [Required]
         public String Rating { get; set; }
 
-        public Boolean Edited { get; set; }
+        public Boolean? Edited { get; set; }
 
         public String LentTo { get; set; }
         
